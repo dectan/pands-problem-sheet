@@ -16,6 +16,8 @@ I have previous completed the higher diploma in software deveolment in GMIT, & s
     * [Collatz](#collatz)
     * [Weekday](#Weekday)
     * [Square root](#square-root)
+    * [Square root](#es)
+
 
 
 Weekly tasks
@@ -121,5 +123,25 @@ I am asking you to create your own sqrt function and not to use the built in fun
 
 Please enter a positive number: 14.5
 The square root of 14.5 is approx. 3.8.
+
+  
+   ### ***es***
+
+    Write a program that reads in a text file and outputs the number of e's it contains. 
+
+
+
+
+
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+
+</p>
+</details>
+
+The program should take the filename from an argument on the command line.
 
   
