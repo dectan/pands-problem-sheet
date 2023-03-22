@@ -17,7 +17,7 @@ I have previous completed the higher diploma in software deveolment in GMIT, & s
     * [Weekday](#Weekday)
     * [Square root](#square-root)
     * [Square root](#es)
-    * [Plot](#es)
+    * [Plot](#plottask)
 
 
 
