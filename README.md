@@ -7,37 +7,41 @@ This repository is used for the problem sets given during the Programming and sc
 
 I have previous completed the higher diploma in software deveolment in GMIT, & so even though Python wasnt taught, the basics were knowledge between different languages
 
+As I was unable to install all software until wk06, pushing my work to Github is non existent for the initial weeks of course.
+Link to 
+https://www.markdownguide.org/basic-syntax
 
-## Table of contents
-* [Weekly tasks](#weekly-tasks)
-    * [Hello World](#HelloWorld)
-    * [Bank](#Bank)
-    * [Accounts Masked Number](#AccountsMaskedNumber)
-    * [Collatz](#collatz)
-    * [Weekday](#Weekday)
-    * [Square root](#square-root)
-    * [Square root](#es)
-    * [Plot](#plottask)
 
+
+
+
+
+# **Table of contents**
+* [Weekly tasks](weekly-tasks)
+    1. [Hello World](HelloWorld)
+    2. [Bank](Bank)
+    3. [Accounts Masked Number](AccountsMaskedNumber)
+    4. [Collatz](collatz)
+    5. [Weekday](Weekday)
+    6. [Square root](square-root)
+    7. [Square root](es)
+    8. [Plot](plottask)
 
 
 Weekly tasks
 ======
-### ***HelloWorld***
+# ***HelloWorld***
 
-    Write a program that outputs "Hello World"
+## Question
+
+### Write a program that outputs "Hello World"
     
-
-<details>
-           <summary>User point of view</summary>
-           <p>
-
-This file should contain a python program that displays Hello World! when it is run.
+<p>This file should contain a python program that displays Hello World! when it is run. </p>
 
 
-  ### ***Bank***
+### ***Bank***
 
-
+## Question 
 Write a program called bank.py 
 
 The program should:
@@ -45,12 +49,6 @@ The program should:
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
 Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
-
-
-
-<details>
-           <summary>User point of view</summary>
-           <p>
 
 Enter amount1(in cent): 65
 Enter amount2(in cent): 180
