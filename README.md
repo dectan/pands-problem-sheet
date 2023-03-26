@@ -42,7 +42,7 @@ Weekly tasks
 ### ***Bank***
 
 ## Question 
-Write a program called bank.py 
+<p>Write a program called bank.py </p>
 
 The program should:
 
@@ -59,9 +59,8 @@ The sum of these is €2.45
 
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 
-<details>
-           <summary>User point of view</summary>
-           <p>
+## assumptions
+<p> number must be entered</p>
 
 Please enter an 10 digit account number: 1234567890
 XXXXXX7890
@@ -76,14 +75,8 @@ At each step calculate the next value by taking the current value and, if it is 
 Have the program end if the current value is one.
 
 <details>
-           <summary>User point of view</summary>
-           <p>
-
-
-
-
-Have the program end if the current value is one.
-</p>
+        
+<p>Have the program end if the current value is one.</p>
 </details>
 
   ### ***Weekday***
@@ -92,9 +85,8 @@ Write a program that outputs whether or not today is a weekday.
 
 
 <details>
-           <summary>User point of view</summary>
-           <p>
-An example of running it on a Saturday is as follows:
+          
+<p>An example of running it on a Saturday is as follows:
 
 It is the weekend, yay!
 
@@ -113,7 +105,7 @@ I am asking you to create your own sqrt function and not to use the built in fun
 
 
 <details>
-           <summary>User point of view</summary>
+           
            <p>
 
 
@@ -134,7 +126,7 @@ The square root of 14.5 is approx. 3.8.
 
 
 <details>
-           <summary>User point of view</summary>
+           <summary></summary>
            <p>
 
 
@@ -157,7 +149,7 @@ and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that r
 
 
 <details>
-           <summary>User point of view</summary>
+           <summary></summary>
            <p>
 
 
