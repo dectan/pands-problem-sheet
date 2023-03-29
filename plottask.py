@@ -37,4 +37,5 @@ plt.ylabel('Frequency')
 plt.title('Histogram of Normal Distribution (mean=5, std=2)')
 
 # Show both of the plots
+plt.legend()
 plt.show()
