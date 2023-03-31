@@ -13,4 +13,4 @@ try:
        print(count)
 
 except FileNotFoundError:
-   print("file does not exist")
+   print("filename (", filename,") does not exist. Please re-run and enter a valid filename", sep = '')
