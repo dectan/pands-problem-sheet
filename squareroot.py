@@ -4,7 +4,7 @@
 
 
 
-def newton(x):
+def sqrt(x):
    tolerance = 0.000001
    estimate = 1.0
    while True:
@@ -14,10 +14,14 @@ def newton(x):
             break
    return estimate
  
-def start():
+
    
-       x = input("Please enter a positive number: ")
-       x = float(x)
-       print("The program's estimate is", newton(x))
-       
-start()
+x = float(input("Please enter a positive number: "))
+if x >0:
+         #print("Number must be positive")
+         x = float(x)
+         print("The program's estimate is", sqrt(x))
+if x <=0:
+         print("Number entered must be positive")
+else:
+         print("Number must not contain any symbols")

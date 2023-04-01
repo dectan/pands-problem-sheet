@@ -1,6 +1,7 @@
 #https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
 import sys
 
+
 def collatz(number):
     if number % 2 == 0:           # Even number
         number = number // 2
@@ -16,6 +17,18 @@ def collatz(number):
         number = number           
         return collatz(number)    
 
+try:
+    number = int(input('Please enter a positive integer:'))
+    if number > 0:
+        collatz(number)
+    if number < 0:
+        print("No Negative numbers")
 
-number = int(input('Please enter a positive integer:'))
-collatz(number)
+    else:
+        print("Number must be greater than 0")
+        print(number)
+
+except ValueError as e:
+    print('Please enter a valid number with no symbols')
+    #print(f'Please enter a valid number with no symbols',e)
+    
