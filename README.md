@@ -102,8 +102,20 @@ It is the weekend, yay!
 You should create a function called <tt>sqrt</tt> that does this.
 
 I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).
+<p> code working in excel</p>
+
+<p>
+Step	Number	x	y	Difference	Absolute	Tolerance
+1	14.300000000	7.150000000	4.575000000	-2.575000000	2.575000000	FALSE
+2	14.300000000	4.575000000	3.850341530	-0.724658470	0.724658470	FALSE
+3	14.300000000	3.850341530	3.782148891	-0.068192639	0.068192639	FALSE
+4	14.300000000	3.782148891	3.781534130	-0.000614761	0.000614761	FALSE
+5	14.300000000	3.781534130	3.781534080	-0.000000050	0.000000050	TRUE
+
+</P>
 
 
+<p>output rounded to 1 decimal place as per screenshot of output in question</p>
 <details>
            
            <p>
