@@ -1,20 +1,17 @@
+#exception handling from wk 09 lectrure
+#import sys
 
-import sys
-
-try:
+while True:
+    try:
 #ask the user to enter amounts, and store in number1 + number2
-    number1 = float(input('please enter amount 1 (in cent):'))
-    #if number1 > 0:
-    number2 = float(input('please enter amount 2(in cent):'))
-    if number1 and number2 > 0:
-#calculation done and stored in num3
-        number3   = (number1 + number2) / 100
-
-#print number 3 to 2 decimal places
-        print(f'the sum of these is €{number3:.2f}')
-
-    else:
-        print("you must enter numbers only")
+        number1 = int(input('please enter amount 1 (in cent):'))
+        number2 = int(input('please enter amount 2 (in cent):'))
+        if number1 < 0 or number2 <0:
+            raise ValueError("Both first and second number must be positive, and must not contain any symbols")
+        break
+    except ValueError as e:
+        print(e)
+           #elif: number1 >0 and number2 >0  
+number3   = (number1 + number2) / 100
+print(f'the sum of these is €{number3:.2f}')
     
-except ValueError as e:
-    print("Please enter a valid number as",e)

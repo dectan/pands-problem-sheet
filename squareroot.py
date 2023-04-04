@@ -11,9 +11,9 @@ def sqrt(x):
    while True:
         #calculate y 
         y = (x + number/x) / 2
-        print(y)
+        #print(y)
 
-        # check if the difference between y - x is <, .001
+        # check if the absolute difference between y - x is < .00001
         if abs(y - x) < tolerance:
             #print(y)
             # return y to 2 decimal places as per screenshot in question.
