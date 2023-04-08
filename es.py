@@ -1,6 +1,6 @@
 #https://www.w3schools.com/python/trypython.asp?filename=demo_ref_string_count
-
-#using sys.arg as demonstrated in WK09 Lecture
+#https://stackoverflow.com/questions/30277347/if-else-statements-accepting-strings-in-both-capital-and-lower-case-letters-in-p
+#using sys.argv as demonstrated in WK09 Lecture
 
 import sys
  
@@ -9,7 +9,10 @@ filename = sys.argv[1]
 try:
     with open(filename,'r') as f:
        text = f.read()
-       count = text.count("e")
+       count = 0
+       for i in text:
+         if (i == "e"or i =="E"):
+            count +=1
        print(count)
 
 except FileNotFoundError:

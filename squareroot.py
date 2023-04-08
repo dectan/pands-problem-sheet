@@ -25,7 +25,7 @@ def sqrt(x):
 try:
    number = float(input("Please enter a positive number: "))
    if number > 0:
-      print(f"The program's estimate is",(sqrt(number)),"when number entered is",number)
+      print(f"The square root of",(number),"is",(sqrt(number)))
 
    if number <=0:
       print("Number entered must be positive, and must not contain symbols")

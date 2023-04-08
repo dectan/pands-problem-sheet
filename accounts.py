@@ -3,21 +3,18 @@
 #https://www.geeksforgeeks.org/python-check-whether-string-contains-only-numbers-or-not/?ref=rp
 
 
-while True :
-   try:
-      accountnum = str(input('Please enter an 10 digit account number:'))
-      if len(accountnum) != 10:
-         raise ValueError("Account number entered must be 10 digits")
-      #check if number entered is numerical
-      if accountnum.isdigit():
-         # replace last 4 digits of acountnumber  with * & format to right of string
-         maskednum = accountnum[-4:].rjust(len(accountnum),'*')
-         print(maskednum)
-         #print(accountnum)
-         #break while true
-         break
-         print("program ending")
-      else:
-         print("you must enter numbers only")
-   except ValueError as e:
-      print(e)
+try:
+   account_num = str(input("Please enter an account number: "))
+#check if input is greater than 4 digits
+   if len(account_num) <= 4:
+      raise ValueError("Account number entered must be 10 digits")
+   if account_num.isdigit():
+   #create new string of * for lenght of account num -4 digits, + the last 4 digits of original account number
+    masked_num = "*" * (len(account_num) - 4) + account_num[-4:]
+    print(masked_num)
+
+   else:
+      print("only numbers can be entered")
+
+except ValueError as e:
+   print(f"Error:",e)
