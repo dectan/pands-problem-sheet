@@ -1,6 +1,6 @@
 #https://stackoverflow.com/questions/20011494/plot-normal-distribution-with-matplotlib
 #https://chat.openai.com/chat
-
+#https://www.statology.org/numpy-linspace-vs-arange/
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,7 +10,7 @@ def h(x):
     return x ** 3
 
 #Create an array of x values in the range 0, 10 and get y values using h(x) = x^3
-x = np.linspace(1, 10)
+x = np.array(range(0, 10))
 
 y = h(x)
 
