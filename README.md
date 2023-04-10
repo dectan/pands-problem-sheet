@@ -30,21 +30,20 @@ https://www.markdownguide.org/basic-syntax
 
 Weekly tasks
 ======
-# ***HelloWorld***
+<h1> ***HelloWorld!*** </h>
 
-## Question
+<h2> Wk 01 Task: Hello World!.py </h2>
+<p>Write a program that outputs "Hello World!"</p>
+<h3> Output Expected </h3>    
+<p>This file should contain a python program that displays **Hello World!** when it is run. </p>
 
-### Write a program that outputs "Hello World"
-    
-<p>This file should contain a python program that displays Hello World! when it is run. </p>
 
+<h1> ***Bank*** <h1>
 
-### ***Bank***
-
-## Question 
+<h2> Wk 02 Task: Bank.py </h2>
 <p>Write a program called bank.py </p>
-
-The program should:
+<h3> Output Expected </h3>
+<p>The program should:
 
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
@@ -54,17 +53,17 @@ Enter amount1(in cent): 65
 Enter amount2(in cent): 180
 The sum of these is €2.45
 
+</p>
 
-### ***Accounts Masked Num***
+<h1> ***Accounts Masked Num*** </h1>
+<h2> Wk 03 Tash: Accounts.py </h2>
+<h3>  Output Expected </h3>
 
-Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
-
-## assumptions
-<p> number must be entered</p>
-
+<p>Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 Please enter an 10 digit account number: 1234567890
-XXXXXX7890
-
+XXXXXX7890</p>
+<h3> Assumptions </h3>
+<p> Number entered must be 4 characters otherwise number entered will be returned</p>
 
   ### ***Collatz***
     
@@ -170,4 +169,3 @@ and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that r
 
 
 
-  
