@@ -3,14 +3,11 @@
 # Problems 2023
 
 
-This repository is used for the problem sets given during the Programming and scripting module on Higher Diploma in Data Analytics course from GMIT.\
-
-I have previous completed the higher diploma in software deveolment in GMIT, & so even though Python wasnt taught, the basics were knowledge between different languages
-
-As I was unable to install all software until wk06, pushing my work to Github is non existent for the initial weeks of course.
-Link to 
+<p>This repository is used for the problem sets given during the Programming and scripting module on Higher Diploma in Data Analytics course from GMIT.\</p>
+<p>in Visual Studio Code, I have added source files for code, and also added comments to explain work</p>
+</p><em>As I was unable to install all software until wk06, pushing my work to Github is non existent for the initial weeks of course.</em></p>
+<p>for this markup sheet, I used the following websites.
 <a href="#">https://www.markdownguide.org/basic-syntax</a>
-
 <a href="#">https://www.w3schools.io/file/markdown-cheatsheet/</a>
 
 # **Table of contents**
@@ -25,9 +22,7 @@ Link to
     8. [Plot](#plottask)
 
 
-Weekly tasks
-======
-# **HelloWorld!** #
+# HelloWorld! #
 <h2> Wk 01 Task: Hello World!.py </h2>
 <p>Write a program that outputs <em>"Hello World!"</em></p>
 <h3> Output Expected </h3>    
@@ -76,109 +71,84 @@ XXXXXX7890</p>
 </ol>
 
 # collatz #
-<h2> Wk 03 Task: Accounts.py </h2> 
-<p>Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
-
-At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
-
-Have the program end if the current value is one.</p>
+<h2> Wk 04 Task: collatz.py </h2> 
+<p>Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.</p>
+<p>At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.<,p>
+<p>Have the program end if the current value is one.</p>
 <h3>  Output Expected </h3>
 <p>Please enter a positive integer: 10</p>
-
-</p>10 5 16 8 4 2 1 </p>
-        
+</p>10 5 16 8 4 2 1 </p>  
 <h3> Assumptions </h3>
 <li> User must enter positive number, otherwise exception
 <li> User must not enter symbols, otherwise exception
+<h3>Instructions to run progrgam </h3>
+<ol>
+<li>run collatz.py.py program</li>
+<li>enter positive number</li>
+</ol>
 
-  ### ***Weekday***
-
-Write a program that outputs whether or not today is a weekday.
-
-
-<details>
-          
+# Weekday #
+<h2> Wk 05 Task: weekday.py </h2> 
+<p>Write a program that outputs whether or not today is a weekday.</p>
+<h3>  Output Expected </h3>
+<p>An example of running this program on a Thursday is given below.</p>
+<p>Yes, unfortunately today is a weekday.</p>        
 <p>An example of running it on a Saturday is as follows:
+<p>It is the weekend, yay!</p>
+<h3> Assumptions </h3>
+<p>N/A</p>
+<h3>Instructions to run progrgam </h3>
+<ol>
+<li>run python weekday.py</li>
+<li>program prints output</li>
+</ol>
 
-It is the weekend, yay!
-
-</p>
-</details>
-
-
-
-  ### ***Square root***
-
-    Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
-
-You should create a function called <tt>sqrt</tt> that does this.
-
-I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).
-<p> code working in excel</p>
-
-<p>
-Step	Number	x	y	Difference	Absolute	Tolerance
-1	14.300000000	7.150000000	4.575000000	-2.575000000	2.575000000	FALSE
-2	14.300000000	4.575000000	3.850341530	-0.724658470	0.724658470	FALSE
-3	14.300000000	3.850341530	3.782148891	-0.068192639	0.068192639	FALSE
-4	14.300000000	3.782148891	3.781534130	-0.000614761	0.000614761	FALSE
-5	14.300000000	3.781534130	3.781534080	-0.000000050	0.000000050	TRUE
-
-</P>
-
-
-<p>output rounded to 1 decimal place as per screenshot of output in question</p>
-<details>
-           
-           <p>
-
-
-</p>
-</details>
-
-Please enter a positive number: 14.5
-The square root of 14.5 is approx. 3.8.
-
+# Square root #
+<h2> Wk 06 Task: weekday.py </h2> 
+<p>Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.</p>
+</p>You should create a function called <tt>sqrt</tt> that does this.</p>
+<p>I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).</p>
+<h3>  Output Expected </h3>
+<p>Please enter a positive number: 14.5</p>
+<p>The square root of 14.5 is approx. 3.8.</p> 
+<h3> Assumptions </h3>
+<li><em>output formatted to 1 decimal place as per screenshot question</em></li>
+<li>User must enter positive number, otherwise exception</li>
+<li>User must not enter symbols, otherwise exception</li>
+<h3>Instructions to run progrgam </h3>
+<ol>
+<li>run python squareroot.py</li>
+<li>enter positive number</li>
+<li>program prints output to <em>1 decimal place</em></li>
+</ol>
   
-   ### ***es***
-
-    Write a program that reads in a text file and outputs the number of e's it contains. 
-
-
-
-
-
-
-<details>
-           <summary></summary>
-           <p>
-
-
-</p>
-</details>
-
-The program should take the filename from an argument on the command line.
-
+# es #
+<h2> Wk 07 Task: es.py </h2> 
+<p>Write a program that reads in a text file from the command line and outputs the number of e's it contains.</p>
+<h3>  Output Expected </h3>
+<p>python es.py moby-dick.txt</p>
+<p>116960</p>
+<h3> Assumptions </h3>
+<li>both uppercase and lower case es are counted</li>
+<li>User must enter valid filename from command line</li>
+<h3>Instructions to run progrgam </h3>
+<ol>
+<li>run python es.py SampleFile.txt</li>
+<li>program prints count of number of <em>e's</em> & <em>E's</em>
+</ol>
   
-  ### ***plottask***
-
-    Write a program called plottask.py that displays:
-
-a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
-and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that reads in a text file and outputs the number of e's it contains. 
-
-
-
-
-
-
-<details>
-           <summary></summary>
-           <p>
-
-
-</p>
-</details>
-
-
-
+# plottask #
+<h2> Wk 08 Task: plottask.py </h2> 
+<p>Write a program called plottask.py that displays:</p>
+*  <p>a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2,</p>
+*  <p>and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that reads in a text file and outputs the number of e's it contains.</p>
+<p>on the one set of axes.</p>
+<h3>  Output Expected </h3>
+<p>display appears when program is run</p>
+<h3> Assumptions </h3>
+<p>N/A</p>
+<h3>Instructions to run progrgam </h3>
+<ol>
+<li>run python plottask.py</li>
+<li>program displays hist/plot</li>
+</ol>
