@@ -13,9 +13,6 @@ Link to
 
 <a href="#">https://www.w3schools.io/file/markdown-cheatsheet/</a>
 
-
-
-
 # **Table of contents**
 * [Weekly tasks](weekly-tasks)
     1. [Hello World](#HelloWorld)
@@ -32,26 +29,25 @@ Weekly tasks
 ======
 # **HelloWorld!** #
 <h2> Wk 01 Task: Hello World!.py </h2>
-<p>Write a program that outputs "Hello World!"</p>
+<p>Write a program that outputs <em>"Hello World!"</em></p>
 <h3> Output Expected </h3>    
-<p>This file should contain a python program that displays **Hello World!** when it is run. </p>
+<p>This file should contain a python program that displays <em>Hello World!</em> when it is run. </p>
 <h3> Assumptions </h3>
 <p>N/A</p>
 <h3>Instructions to run progrgam </h3>
 <p>run helloworld.py</p>
 
-
 # Bank #
 <h2> Wk 02 Task: Bank.py </h2>
 <p>Write a program called bank.py </p>
-<p>The program should:
-Prompt the user and read in two money amounts (in cent)
-Add the two amounts
-Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount</p>
+<p>The program should:</p>
+<p>Prompt the user and read in two money amounts (in cent)</p>
+<p>Add the two amounts</p>
+<p>Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount</p>
 <h3> Output Expected </h3>
-<p>Enter amount1(in cent): 65
-Enter amount2(in cent): 180
-The sum of these is €2.45</p>
+<p>Enter amount1(in cent): 65</p>
+<p>Enter amount2(in cent): 180<p>
+<p>The sum of these is €2.45</p>
 <h3> Assumptions </h3>
 <li> User must enter positive number, otherwise exception</li>
 <li> User must not enter symbols, otherwise exception</li>
