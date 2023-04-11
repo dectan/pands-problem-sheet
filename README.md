@@ -18,65 +18,66 @@ https://www.markdownguide.org/basic-syntax
 
 # **Table of contents**
 * [Weekly tasks](weekly-tasks)
-    1. [Hello World](HelloWorld)
-    2. [Bank](Bank)
-    3. [Accounts Masked Number](AccountsMaskedNumber)
-    4. [Collatz](collatz)
-    5. [Weekday](Weekday)
-    6. [Square root](square-root)
-    7. [Square root](es)
-    8. [Plot](plottask)
+    1. [Hello World](#HelloWorld)
+    2. [Bank](#Bank)
+    3. [Accounts Masked Number](#accounts)
+    4. [Collatz](#collatz)
+    5. [Weekday](#Weekday) 
+    6. [Square root](#square-root)
+    7. [Square root](#es)
+    8. [Plot](#plottask)
 
 
 Weekly tasks
 ======
 <h1> ***HelloWorld!*** </h>
-
 <h2> Wk 01 Task: Hello World!.py </h2>
 <p>Write a program that outputs "Hello World!"</p>
 <h3> Output Expected </h3>    
 <p>This file should contain a python program that displays **Hello World!** when it is run. </p>
-
+<h3> Assumptions </h3>
+<p>N/A</p>
 
 <h1> ***Bank*** <h1>
-
 <h2> Wk 02 Task: Bank.py </h2>
 <p>Write a program called bank.py </p>
-<h3> Output Expected </h3>
 <p>The program should:
-
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
-Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
-
-Enter amount1(in cent): 65
+Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount</p>
+<h3> Output Expected </h3>
+<p>Enter amount1(in cent): 65
 Enter amount2(in cent): 180
-The sum of these is €2.45
+The sum of these is €2.45</p>
+<h3> Assumptions </h3>
+<li> User must enter positive number, otherwise exception</li>
+<li> User must not enter symbols, otherwise exception</li>
 
-</p>
-
-<h1> ***Accounts Masked Num*** </h1>
-<h2> Wk 03 Tash: Accounts.py </h2>
+<h1> ***accounts*** </h1>
+<h2> Wk 03 Task: Accounts.py </h2>
+<p>Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).</p>
 <h3>  Output Expected </h3>
-
-<p>Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
-Please enter an 10 digit account number: 1234567890
+<p>Please enter an 10 digit account number: 1234567890
 XXXXXX7890</p>
 <h3> Assumptions </h3>
-<p> Number entered must be 4 characters otherwise number entered will be returned</p>
+<li> Number entered must be 4 characters otherwise number entered by user will be returned</li>
+<li> User must not enter symbols, otherwise exception</li>
 
-  ### ***Collatz***
-    
-Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
+<h1> ***collatz*** </h1>
+<h2> Wk 03 Task: Accounts.py </h2> 
+<p>Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 
-Have the program end if the current value is one.
+Have the program end if the current value is one.</p>
+<h3>  Output Expected </h3>
+<p>Please enter a positive integer: 10</p>
 
-<details>
+</p>10 5 16 8 4 2 1 </p>
         
-<p>Have the program end if the current value is one.</p>
-</details>
+<h3> Assumptions </h3>
+<li> User must enter positive number, otherwise exception
+<li> User must not enter symbols, otherwise exception
 
   ### ***Weekday***
 
