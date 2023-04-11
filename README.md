@@ -7,8 +7,8 @@
 <p>in Visual Studio Code, I have added source files for code, and also added comments to explain work</p>
 </p><em>As I was unable to install all software until wk06, pushing my work to Github is non existent for the initial weeks of course.</em></p>
 <p>for this markup sheet, I used the following websites.
-<a href="#">https://www.markdownguide.org/basic-syntax</a>
-<a href="#">https://www.w3schools.io/file/markdown-cheatsheet/</a>
+<p><a href="#">https://www.markdownguide.org/basic-syntax</a></p>
+<p><a href="#">https://www.w3schools.io/file/markdown-cheatsheet/</a></p>
 
 # **Table of contents**
 * [Weekly tasks](weekly-tasks)
@@ -18,8 +18,8 @@
     4. [Collatz](#collatz)
     5. [Weekday](#Weekday) 
     6. [Square root](#square-root)
-    7. [Square root](#es)
-    8. [Plot](#plottask)
+    7. [es](#es)
+    8. [Plottask](#plottask)
 
 
 # HelloWorld! #
@@ -30,7 +30,10 @@
 <h3> Assumptions </h3>
 <p>N/A</p>
 <h3>Instructions to run progrgam </h3>
-<p>run helloworld.py</p>
+<ol>
+<li>run python helloworld.py</li>
+<li>program prints Hello World! in Terminal</li>
+</ol>
 
 # Bank #
 <h2> Wk 02 Task: Bank.py </h2>
@@ -48,10 +51,10 @@
 <li> User must not enter symbols, otherwise exception</li>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run bank.py program</li>
+<li>run python bank.py</li>
 <li>enter first number</li>
 <li>enter second number</li>
-<li>program prints output</li>
+<li>program prints sum of number1 & number 2 in Terminal</li>
 </ol>
 
 # accounts #
@@ -60,14 +63,18 @@
 <h3>  Output Expected </h3>
 <p>Please enter an 10 digit account number: 1234567890
 XXXXXX7890</p>
+<h3> Extra: </h3>
+<p>Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)</p>
+<p><em>Program will run as long as more than 4 characters are entered.</em></p>
 <h3> Assumptions </h3>
-<li> Number entered must be 4 characters otherwise number entered by user will be returned</li>
+<li> Number entered must be greater than 4 characters otherwise exception called</li>
+<li> Any number with > than 4 characters will have last 4 characters masked</li>
 <li> User must not enter symbols, otherwise exception</li>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run accounts.py program</li>
+<li>run python accounts.py</li>
 <li>enter 10 digit number</li>
-<li>program prints output</li>
+<li>program prints masked string in Terminal</li>
 </ol>
 
 # collatz #
@@ -83,8 +90,9 @@ XXXXXX7890</p>
 <li> User must not enter symbols, otherwise exception
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run collatz.py.py program</li>
+<li>run python collatz.py</li>
 <li>enter positive number</li>
+<li>program prints output in Terminal</li>
 </ol>
 
 # Weekday #
@@ -140,8 +148,8 @@ XXXXXX7890</p>
 # plottask #
 <h2> Wk 08 Task: plottask.py </h2> 
 <p>Write a program called plottask.py that displays:</p>
-*  <p>a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2,</p>
-*  <p>and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that reads in a text file and outputs the number of e's it contains.</p>
+*  a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2,
+*  and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that reads in a text file and outputs the number of e's it contains.
 <p>on the one set of axes.</p>
 <h3>  Output Expected </h3>
 <p>display appears when program is run</p>
