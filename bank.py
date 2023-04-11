@@ -13,5 +13,6 @@ while True:
         print("Both first and second number must be positive, and must not contain any symbols, ",e)
            #elif: number1 >0 and number2 >0  
 number3   = (number1 + number2) / 100
+
 print(f'the sum of these is €{number3:.2f}')
     

@@ -11,7 +11,7 @@ def h(x):
 
 #Create an array of x values in the range 0, 10 and get y values using h(x) = x^3
 x = np.array(range(0, 10))
-
+print(x)
 y = h(x)
 
 # Create a plot of h(x) vs. x

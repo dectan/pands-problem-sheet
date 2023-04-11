@@ -10,8 +10,8 @@ try:
       raise ValueError("Account number entered must be 10 digits")
    if account_num.isdigit():
    #create new string of * for lenght of account num -4 digits, + the last 4 digits of original account number
-    masked_num = "X" * (len(account_num) - 4) + account_num[-4:]
-    print(masked_num)
+      masked_num = "X" * (len(account_num) - 4) + account_num[-4:]
+      print(masked_num)
 
    else:
       print("only numbers can be entered")

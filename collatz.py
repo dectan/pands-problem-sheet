@@ -1,4 +1,5 @@
 #https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+#https://www.freecodecamp.org/news/python-new-line-and-how-to-python-print-without-a-newline/
 import sys
 
 def collatz(number):
@@ -9,13 +10,15 @@ def collatz(number):
     elif number % 2 == 1:         
         number = (3 * number) + 1
     #end when number is 1
-    while number == 1:            
-        print(number)
+    if number == 1:
+        #print number on same line in terminal            
+        print(number,end = ' ')
         sys.exit()                
 
-    while number != 1:            
-        print(number)
-        number = number           
+    if number != 1:
+        #print number on same line in terminal            
+        print(number, end = ' ' )
+        number = number  
         return collatz(number)    
 
 try:
