@@ -9,9 +9,9 @@ I have previous completed the higher diploma in software deveolment in GMIT, & s
 
 As I was unable to install all software until wk06, pushing my work to Github is non existent for the initial weeks of course.
 Link to 
-https://www.markdownguide.org/basic-syntax
+<a href="#">https://www.markdownguide.org/basic-syntax</a>
 
-
+<a href="#">https://www.w3schools.io/file/markdown-cheatsheet/</a>
 
 
 
@@ -30,7 +30,7 @@ https://www.markdownguide.org/basic-syntax
 
 Weekly tasks
 ======
-<h1> ***HelloWorld!*** </h>
+# **HelloWorld!** #
 <h2> Wk 01 Task: Hello World!.py </h2>
 <p>Write a program that outputs "Hello World!"</p>
 <h3> Output Expected </h3>    
@@ -38,7 +38,7 @@ Weekly tasks
 <h3> Assumptions </h3>
 <p>N/A</p>
 
-<h1> ***Bank*** <h1>
+# ***Bank*** #
 <h2> Wk 02 Task: Bank.py </h2>
 <p>Write a program called bank.py </p>
 <p>The program should:
