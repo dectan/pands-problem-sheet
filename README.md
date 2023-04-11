@@ -37,8 +37,11 @@ Weekly tasks
 <p>This file should contain a python program that displays **Hello World!** when it is run. </p>
 <h3> Assumptions </h3>
 <p>N/A</p>
+<h3>Instructions to run progrgam </h3>
+<p>run helloworld.py</p>
 
-# ***Bank*** #
+
+# Bank #
 <h2> Wk 02 Task: Bank.py </h2>
 <p>Write a program called bank.py </p>
 <p>The program should:
@@ -52,8 +55,15 @@ The sum of these is €2.45</p>
 <h3> Assumptions </h3>
 <li> User must enter positive number, otherwise exception</li>
 <li> User must not enter symbols, otherwise exception</li>
+<h3>Instructions to run progrgam </h3>
+<ol>
+<li>run bank.py program</li>
+<li>enter first number</li>
+<li>enter second number</li>
+<li>program prints output</li>
+</ol>
 
-<h1> ***accounts*** </h1>
+# accounts #
 <h2> Wk 03 Task: Accounts.py </h2>
 <p>Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).</p>
 <h3>  Output Expected </h3>
@@ -62,8 +72,14 @@ XXXXXX7890</p>
 <h3> Assumptions </h3>
 <li> Number entered must be 4 characters otherwise number entered by user will be returned</li>
 <li> User must not enter symbols, otherwise exception</li>
+<h3>Instructions to run progrgam </h3>
+<ol>
+<li>run accounts.py program</li>
+<li>enter 10 digit number</li>
+<li>program prints output</li>
+</ol>
 
-<h1> ***collatz*** </h1>
+# collatz #
 <h2> Wk 03 Task: Accounts.py </h2> 
 <p>Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
