@@ -1,6 +1,6 @@
 #exception handling from wk 09 lectrure
 #import sys
-
+#if valid user input, program moves to next step
 while True:
     try:
 #ask the user to enter amounts, and store in number1 + number2
