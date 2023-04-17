@@ -3,9 +3,10 @@
 #using sys.argv as demonstrated in WK09 Lecture
 
 import sys
- 
-filename = sys.argv[1]  
-
+try:
+   filename = sys.argv[1]  
+except IndexError:
+   filename = input("Please enter a filename: ")
 try:
     with open(filename,'r') as f:
        text = f.read()
@@ -14,6 +15,6 @@ try:
          if (i == "e"or i =="E"):
             count +=1
        print(count)
-
+#sep='' removes blanks before and after filename
 except FileNotFoundError:
-   print("filename (", filename,") does not exist. Please re-run and enter a valid filename", sep = '')
+   print("filename (", filename,") does not exist. Please re-run and enter a valid filename",sep = '')
