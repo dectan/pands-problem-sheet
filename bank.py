@@ -12,7 +12,10 @@ while True:
     except ValueError as e:
         print("Both first and second number must be positive, and must not contain any symbols, ",e)
            #elif: number1 >0 and number2 >0  
-number3   = (number1 + number2) / 100
-
-print(f'the sum of these is €{number3:.2f}')
-    
+number3   = (number1 + number2)
+#// to calculate qty of euros in number3
+euros = number3 // 100
+#modulus to calculate the qty of cents
+cents = number3 % 100
+#print 
+print(f"The sum of these is €{euros}.{cents:02d}")

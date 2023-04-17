@@ -6,7 +6,7 @@ import datetime
 today = datetime.datetime.now().weekday()
 #print(today)
 # check  today is less than 4, then its a weekkday
-if today <4:
+if today <5:
     print("Yes, unfortunately today is a weekday.")
 #if not <4, then its the weekend
 else:
