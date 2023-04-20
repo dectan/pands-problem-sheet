@@ -1,7 +1,6 @@
 #https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
 #https://www.freecodecamp.org/news/python-new-line-and-how-to-python-print-without-a-newline/
 #exception handling from wk 09 lectrure
-#import sys
 
 #if valid user input, program moves to next step
 while True:
@@ -24,5 +23,5 @@ while num !=1:
     else:
         #if not even number then must be Odd number 
         num = num * 3 + 1
-#question asked for 1 to be printed, so by printing num while num = 1, 1 gets printed
+#question asked for 1 to be printed, so by printing num while num = 1 @ end of while loop, 1 gets printed
 print(num)

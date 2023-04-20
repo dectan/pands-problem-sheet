@@ -21,17 +21,14 @@ def sqrt(x):
 
         # update the values for next iteration
         x = y
-
 try:
    number = float(input("Please enter a positive number: "))
    if number > 0:
-      print(f"The square root of",(number),"is",(sqrt(number)))
+   #output printed is formatted as per screenshot in question
+      print(f"The square root of ",(number)," is ",(sqrt(number)),'.',sep = '' )
 
    if number <=0:
       print("Number entered must be positive, and must not contain symbols")
-
-   #else:
-      #print("Number entered must be positive1, and must not contain symbols")
     
 except ValueError as e:
     print("Number entered must be positive2, and must not contain symbols",e)

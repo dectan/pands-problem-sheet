@@ -31,7 +31,7 @@
 <p>N/A</p>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python helloworld.py</li>
+<li>$ python helloworld.py</li>
 <li>program prints Hello World! in Terminal</li>
 </ol>
 
@@ -47,11 +47,11 @@
 <p>Enter amount2(in cent): 180<p>
 <p>The sum of these is €2.45</p>
 <h3> Assumptions </h3>
-<li> User must enter positive number, otherwise exception</li>
+<li> User must enter 2 positive numbers, otherwise exception</li>
 <li> User must not enter symbols, otherwise exception</li>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python bank.py</li>
+<li>$ python bank.py</li>
 <li>enter first number</li>
 <li>enter second number</li>
 <li>program prints sum of number1 & number 2 in Terminal</li>
@@ -68,11 +68,11 @@ XXXXXX7890</p>
 <p><em>Program will run as long as more than 4 characters are entered.</em></p>
 <h3> Assumptions </h3>
 <li> Number entered must be greater than 4 characters otherwise exception called</li>
-<li> Any number with > than 4 characters will have last 4 characters masked</li>
+<li> Any number entered by user greater than 4 characters will only display final 4 characters, the rest will be masked with X</li>
 <li> User must not enter symbols, otherwise exception</li>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python accounts.py</li>
+<li>$ python accounts.py</li>
 <li>enter 10 digit number</li>
 <li>program prints masked string in Terminal</li>
 </ol>
@@ -80,7 +80,7 @@ XXXXXX7890</p>
 # collatz #
 <h2> Wk 04 Task: collatz.py </h2> 
 <p>Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.</p>
-<p>At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.<,p>
+<p>At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.</p>
 <p>Have the program end if the current value is one.</p>
 <h3>  Output Expected </h3>
 <p>Please enter a positive integer: 10</p>
@@ -90,7 +90,7 @@ XXXXXX7890</p>
 <li> User must not enter symbols, otherwise exception
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python collatz.py</li>
+<li>$ python collatz.py</li>
 <li>enter positive number</li>
 <li>program prints output in Terminal</li>
 </ol>
@@ -107,7 +107,7 @@ XXXXXX7890</p>
 <p>N/A</p>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python weekday.py</li>
+<li>$ python weekday.py</li>
 <li>program prints output</li>
 </ol>
 
@@ -120,36 +120,40 @@ XXXXXX7890</p>
 <p>Please enter a positive number: 14.5</p>
 <p>The square root of 14.5 is approx. 3.8.</p> 
 <h3> Assumptions </h3>
-<li><em>output formatted to 1 decimal place as per screenshot question</em></li>
+<li><em>output formatted to 1 decimal place, with decimal point also after first digit as per screenshot question</em></li>
 <li>User must enter positive number, otherwise exception</li>
 <li>User must not enter symbols, otherwise exception</li>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python squareroot.py</li>
+<li>$ python squareroot.py</li>
 <li>enter positive number</li>
-<li>program prints output to <em>1 decimal place</em></li>
+<li>program prints output to <em>1 decimal place with decimal point also after first digit</em> </li>
+$ python squareroot.py
+Please enter a positive number: 14.5
+The square root of 14.5 is approx. 3.8.
 </ol>
   
 # es #
 <h2> Wk 07 Task: es.py </h2> 
-<p>Write a program that reads in a text file from the command line and outputs the number of e's it contains.</p>
+<p>Write a program that reads in a text file from the command line, and outputs the number of lower case e's & upper case E's that the file contains.</p>
 <h3>  Output Expected </h3>
 <p>python es.py moby-dick.txt</p>
 <p>116960</p>
 <h3> Assumptions </h3>
-<li>both uppercase and lower case es are counted</li>
-<li>User must enter valid filename from command line</li>
+<li>both uppercase and lower case e/E are counted</li>
+<li>If user forgets to enter argumnet, then program prompts user to enter file</li>
+<li>User must enter valid filename from command line, otherwise exception</li>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python es.py SampleFile.txt</li>
+<li>$ python es.py SampleFile.txt</li>
 <li>program prints count of number of <em>e's</em> & <em>E's</em>
 </ol>
   
 # plottask #
 <h2> Wk 08 Task: plottask.py </h2> 
 <p>Write a program called plottask.py that displays:</p>
-*  a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2,
-*  and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that reads in a text file and outputs the number of e's it contains.
+<li>  a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2,</li>
+<li>  and a plot of the function  h(x)=x3 in the range [0, 10], Write a program that reads in a text file and outputs the number of e's it contains.</li>
 <p>on the one set of axes.</p>
 <h3>  Output Expected </h3>
 <p>display appears when program is run</p>
@@ -157,6 +161,6 @@ XXXXXX7890</p>
 <p>N/A</p>
 <h3>Instructions to run progrgam </h3>
 <ol>
-<li>run python plottask.py</li>
+<li>$ python plottask.py</li>
 <li>program displays hist/plot</li>
 </ol>
