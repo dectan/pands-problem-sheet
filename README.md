@@ -127,10 +127,8 @@ XXXXXX7890</p>
 <ol>
 <li>$ python squareroot.py</li>
 <li>enter positive number</li>
+<li>main method calls  <em>sqrt function</em> </li>
 <li>program prints output to <em>1 decimal place with decimal point also after first digit</em> </li>
-$ python squareroot.py
-Please enter a positive number: 14.5
-The square root of 14.5 is approx. 3.8.
 </ol>
   
 # es #
