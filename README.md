@@ -112,7 +112,7 @@ XXXXXX7890</p>
 </ol>
 
 # Square root #
-<h2> Wk 06 Task: weekday.py </h2> 
+<h2> Wk 06 Task: squareroot.py </h2> 
 <p>Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.</p>
 </p>You should create a function called <tt>sqrt</tt> that does this.</p>
 <p>I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).</p>
