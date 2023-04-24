@@ -16,7 +16,7 @@ while True:
 number3 = (number1 + number2)
 #// to calculate qty of euros in number3 with floor division
 euros = number3 // 100
-print(euros)
+#print(euros)
 #modulus to calculate the qty of cents
 cents = number3 % 100
 #print euros & cents formatted to 2 decimal places
