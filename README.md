@@ -67,7 +67,7 @@ XXXXXX7890</p>
 <p>Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)</p>
 <p><em>Program will run as long as more than 4 characters are entered.</em></p>
 <h3> Assumptions </h3>
-<li> Number entered must be greater than 4 characters otherwise exception called</li>
+<li> Number entered must be greater than 4 characters otherwise error and  program is restarted</li>
 <li> Any number entered by user greater than 4 characters will only display final 4 characters, the rest will be masked with X</li>
 <li> User must not enter symbols, otherwise exception</li>
 <h3>Instructions to run progrgam </h3>

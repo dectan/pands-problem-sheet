@@ -11,22 +11,11 @@ def h(x):
 
 #Create an array of x values in the range 0, 10 and get y values using h(x) = x^3
 x = np.array(range(0, 10))
-print(x)
+#print(x)
 y = h(x)
 
 # Create a plot of h(x) vs. x
 plt.plot(x, y, label='H(x) = x^3', color="red")
-
-# Add labels to the x- and y-axes
-#plt.xlabel('x')
-#plt.ylabel('h(x)')
-
-# Set the title of the plot
-#plt.title('Plot of h(x) = x^3 in the range [0, 10]')
-
-# Show the plot
-#plt.show()
-
 
 # Generate 1000 random values from a normal distribution with mean 5 and standard deviation 2
 data = np.random.normal(5, 2, 1000)
