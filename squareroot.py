@@ -19,17 +19,19 @@ def sqrt(number):
         # update the values for next iteration
          x = y
 
-def main():        
-   try:
-      number = float(input("Please enter a positive number: "))
-      if number > 0:
+def main():
+   while True:        
+      try:
+         number = float(input("Please enter a positive number: "))
+         if number > 0:
    #output printed is formatted as per screenshot in question
-         print(f"The square root of ",(number)," is approx. ",(sqrt(number)),'.',sep = '' )
-      if number <=0:
-         print("Number entered must be positive, and must not contain symbols")
-   except ValueError as e:
-      print("Number entered must be positive2, and must not contain symbols",e)
-      
+            print(f"The square root of ",(number)," is approx. ",(sqrt(number)),'.',sep = '' )
+            break
+         if number <=0:
+            print("Number entered must be positive, and must not contain symbols")
+      except ValueError as e:
+         print("Number entered must be positive, and must not contain symbols",e)
+         
 # __name__
 if __name__=="__main__":
    main()
